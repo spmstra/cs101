@@ -1,0 +1,18 @@
+Spenser Estrada
+spmestra@unix.ucsc.edu
+pa1
+
+List.java : Contains doubly linked list ADT. Lex.java uses elements of nodes in
+            ADT as indices for insertion sort.
+
+ListCLient.java : Tests functioning of List.java and Lex.java
+
+Lex.java : Takes in name of input and output file. Places each line of input file
+           in an array and indices of array into a List. Sorts lines using 
+           insertion sort. Sorted indices are stored in List.
+
+Makefile: Compiles jar file from Lex.java and List.java
+
+README: Readme file
+
+

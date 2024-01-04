@@ -1,0 +1,23 @@
+Spenser Estrada
+spmestra@unix.ucsc.edu
+pa3
+
+List.java : Contains doubly linked list ADT. Matrix.java uses Lists as rows in
+            n*n Matrix
+
+ListTest.java : Tests functioning of List.java
+
+Matrix.java: Contains array of linked lists Matrix ADT. Used by Sparse to 
+             build Matrices and perform Matrix operations
+
+MatrixTest.java : Tests functioning of Matrix.java
+
+Sparse.java : Takes in name of input and output file as arguments. Builds 
+              Matrices from input text file. Performs Matrix operations
+              and outputs results to output file.
+
+Makefile: Compiles executable file Sparse from source files
+
+README: Readme file
+
+

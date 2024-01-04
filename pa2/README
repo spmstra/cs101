@@ -1,0 +1,20 @@
+Spenser Estrada
+spmestra@unix.ucsc.edu
+pa2
+
+List.c : Contains doubly linked list ADT. Lex.c uses elements of nodes in
+            ADT as indices for insertion sort.
+
+ListClient.c : Tests functioning of List.c and Lex.c
+
+List.h : Header file for List.c
+
+Lex.c : Takes in name of input and output file. Places each line of input file
+        in an array and indices of array into a List. Sorts lines using 
+        insertion sort. Sorted indices are stored in List.
+
+Makefile: Compiles executable file  Lex from Lex.c and List.c and List.h
+
+README: Readme file
+
+

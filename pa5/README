@@ -1,0 +1,25 @@
+Spenser Estrada
+spmestra
+pa5
+
+List.c : Contains doubly linked list ADT. Graph.c uses lists to represent 
+         adjacency of vertexes in graph and contains DFS algorithm
+
+List.h : Header file for List.c
+
+Graph.c : ADT representing a graph. Vertex adj. list representation represented
+          by linked lists. Contains Depth-First Search function.
+
+Graph.h : Header file for Graph.c
+
+GraphTest.c : Tests functionality of Graph.c 
+
+FindComponents.c : Takes name of input and output file. Input file provides 
+                   vertices and edges for Graph. Prints adj. list 
+                   representation of Graph and strongly connected components
+
+Makefile: Compiles executable file  Lex from Lex.c and List.c and List.h
+
+README: Readme file
+
+
